@@ -16,6 +16,7 @@ module.exports = {
         primaryColorLight: "#FF8ED7",
         secondaryColor: "#00C7FA",
         warningColor: "#FF4343",
+        cardColor: "#f6fbff",
       },
       fontFamily: {
         headingFont: ["Poppins", "sans-serif"],

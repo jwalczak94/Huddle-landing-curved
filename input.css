@@ -56,39 +56,7 @@ h3 {
 
 /* MAIN CONTENT */
 .card {
-  @apply py-12 flex flex-col items-center gap-10 max-w-[75rem] lg:flex-row-reverse lg:justify-between lg:mx-auto lg:px-10 xxl:px-0;
-}
-
-.card-component {
-  position: relative;
-  background-color: #f6fbff;
-}
-
-.card-component::after,
-.card-component::before {
-  display: block;
-  position: absolute;
-  left: 0;
-}
-
-.card-component:nth-child(1)::before {
-  content: url(/images/bg-section-top-mobile-1.svg);
-  top: -110px;
-}
-
-.card-component:nth-child(1)::after {
-  content: url(/images/bg-section-bottom-mobile-1.svg);
-  bottom: -52px;
-}
-
-.card-component:nth-child(3)::before {
-  content: url(/images/bg-section-top-mobile-2.svg);
-  top: -100px;
-}
-
-.card-component:nth-child(3)::after {
-  content: url(/images/bg-section-bottom-mobile-2.svg);
-  bottom: -100px;
+  @apply py-14 flex flex-col items-center gap-10 max-w-[75rem] lg:flex-row-reverse lg:justify-between lg:mx-auto xxl:px-0;
 }
 
 /* FOOTER */
@@ -132,27 +100,5 @@ form:has(:invalid) input {
 
   ul li:nth-of-type(2) a i:hover {
     @apply scale-110  text-secondaryColor;
-  }
-}
-
-@media (min-width: 376px) {
-  .card-component:nth-child(1)::before {
-    content: url(/images/bg-section-top-desktop-1.svg);
-    top: -164px;
-  }
-
-  .card-component:nth-child(1)::after {
-    content: url(/images/bg-section-bottom-desktop-1.svg);
-    bottom: -139px;
-  }
-
-  .card-component:nth-child(3)::before {
-    content: url(/images/bg-section-top-desktop-2.svg);
-    top: -155px;
-  }
-
-  .card-component:nth-child(3)::after {
-    content: url(/images/bg-section-bottom-desktop-2.svg);
-    bottom: -138px;
   }
 }
