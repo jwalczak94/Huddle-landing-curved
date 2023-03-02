@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/aa406385b8.js" crossorigin="anonymous"></script>
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
+  <body>
+    <header class="mb-[7.5rem]">
+      <div
+        class="mx-6 mt-6 mb-28 flex justify-between items-center lg:mx-20 lg:mt-20 lg:mb-56 xxl:mx-auto xxl:max-w-7xl">
+        <img class="max-h-6 lg:max-h-[2.375rem]" src="images/logo.svg" alt="" aria-hidden="true" />
+        <a href="#" class="btn-secondary text-xs">Try it free</a>
+      </div>
+      <div class="mx-10 text-center xl:mx-auto">
+        <h1 class="mb-6 lg:mb-[1.625rem]">Build The Community Your Fans Will</h1>
+        <p class="text-lg mb-12 lg:max-w-[37.5rem] lg:mx-auto">
+          Love Huddle re-imagines the way we build communities. You have a voice, but so does your
+          audience. Create connections with your users as you engage in genuine discussion.
+        </p>
+        <a href="#" class="btn-primary btn-big mb-28 lg:mb-[7.5rem]">Get Started For Free</a>
+        <img class="mx-auto xl:max-w-[1016px]" src="images/screen-mockups.svg" alt="" />
+      </div>
+    </header>
+    <main class="overflow-x-hidden">
+      <!-- STATS -->
+      <section
+        class="mb-44 grid place-content-center gap-20 max-w-[55rem] md:grid-cols-stats md:gap-0 md:justify-between md:mx-auto md:px-10 lg:mb-[18.5rem] lg:px-0">
+        <div class="text-center">
+          <img class="self-start" src="images/icon-communities.svg" alt="" aria-hidden="true" />
+          <h2>1.4k+</h2>
+          <span class="text-xl text-fontColorLight">Communities Formed</span>
+        </div>
+        <div class="text-center">
+          <img class="self-start" src="images/icon-messages.svg" alt="" aria-hidden="true" />
+          <h2>2.7m+</h2>
+          <span class="text-xl text-fontColorLight">Messages Sent</span>
+        </div>
+      </section>
+
+      <!-- CARDS -->
+      <section class="text-center lg:text-left xl:mx-auto max-w-[90rem]">
+        <!-- CARD 1 -->
+        <div class="card-component">
+          <div class="card mb-52 xxl:mb-72">
+            <img
+              class="px-6 lg:max-w-[32.25rem] xl:px-0"
+              src="images/illustration-grow-together.svg"
+              alt=""
+              aria-hidden="true" />
+            <div class="mx-7 xxl:mx-0">
+              <h3 class="mb-4 md:mb-[1.625rem]">Grow Together</h3>
+              <p class="text-base max-w-[32.5rem] mx-auto">
+                Generate meaningful discussions with your audience and build a strong, loyal
+                community. Think of the insightful conversations you miss out on with a feedback
+                form.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card mb-52 lg:flex-row">
+          <img
+            class="px-6 lg:max-w-[33.5rem] xl:px-0"
+            src="images/illustration-flowing-conversation.svg"
+            alt=""
+            aria-hidden="true" />
+          <div class="mx-7 xxl:mx-0">
+            <h3 class="mb-4 md:mb-[1.625rem]">Flowing Conversations</h3>
+            <p class="text-base max-w-[32.5rem] mx-auto">
+              You wouldn't paginate a conversation in real life, so why do it online? Our threads
+              have just-in-time loading for a more natural flow.
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card-component mb-36 lg:mb-80">
+          <div class="card">
+            <img
+              class="px-6 lg:max-w-[33.5rem] xl:px-0"
+              src="images/illustration-your-users.svg"
+              alt=""
+              aria-hidden="true" />
+            <div class="mx-7 xxl:mx-0">
+              <h3 class="mb-4 md:mb-[1.625rem]">Your Users</h3>
+              <p class="text-base max-w-[32.5rem] mx-auto">
+                It takes no time at all to integrate Huddle with your app's authentication solution.
+                This means, once signed in to your app, your users can start chatting immediately.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="mb-80 flex flex-col items-center gap-10 lg:mb-[22rem]">
+          <h3 class="max-w-xs lg:max-w-3xl">Ready To Build Your Community?</h3>
+          <a href="#" class="btn-primary btn-big">Get Started For Free</a>
+        </div>
+      </section>
+    </main>
+
+    <div>
+      <!-- BACKGROUND IMG -->
+      <img
+        src="images/bg-footer-top-desktop.svg"
+        alt=""
+        aria-hidden="true"
+        class="object-cover translate-y-1 w-full" />
+
+      <!-- FOOTER CONTENT -->
+      <footer class="bg-fontColorDark text-white pt-14 pb-12 relative sm:py-28">
+        <div
+          class="max-w-[75rem] mx-auto px-7 flex flex-col gap-28 md:flex-row-reverse md:items-start md:justify-between xxl:px-0">
+          <!-- NEWSETTLER -->
+          <div>
+            <h4 class="mb-4">Newsletter</h4>
+            <p class="mb-9 text-[14px] font-bold max-w-[21.5rem] md:mb-10">
+              To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll
+              never send you spam or pass on your email address
+            </p>
+
+            <form
+              class="flex flex-col items-end gap-4 relative lg:flex-row sm:max-w-[32.5rem] sm:gap-10">
+              <input
+                pattern="[a-zA-Z0-9._+-]+@[a-zA-Z0-9 -]+\.[a-z]{2,}"
+                type="email"
+                aria-label="Enter your email address to subscribe"
+                class="rounded-md w-full px-4 py-3 border-[1px] text-fontColorDark" />
+              <span class="warning-label">Check your email please</span>
+              <button type="submit" class="btn-primary btn-small">Subscribe</button>
+            </form>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div>
+            <img
+              class="brightness-0 invert mb-3 lg:mb-4"
+              src="images/logo.svg"
+              alt=""
+              aria-hidden="true" />
+            <p class="text-[14px] font-bold mb-10 max-w-[21.5rem] lg:mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit
+              lacinia vestibulum a, ultrices quis sem.
+            </p>
+            <div class="flex flex-col gap-4 mb-12 lg:mb-20">
+              <div class="flex gap-5 items-center">
+                <img src="images/icon-phone.svg" alt="" aria-hidden="true" />
+                <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567</a>
+              </div>
+              <div class="flex gap-5 items-center">
+                <img src="images/icon-email.svg" alt="" aria-hidden="true" />
+                <a href="mailto:example@company.com">example@company.com</a>
+              </div>
+            </div>
+
+            <!-- SOCIAL LINKS -->
+            <ul class="flex gap-4 md:gap-6">
+              <li>
+                <a href="#" aria-label="Visit our facebook page" class="icon-bg icon">
+                  <i
+                    aria-hidden="true"
+                    class="fa-brands fa-facebook-f text-[18px] text-fontColorDark pr-1 md:text-[25px]"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Visit our instagram page" class="icon">
+                  <i
+                    aria-hidden="true"
+                    class="fa-brands fa-instagram text-[23px] inline-block md:text-[32px]"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Visit our twitter page" class="icon-bg icon">
+                  <i
+                    aria-hidden="true"
+                    class="fa-brands fa-twitter text-fontColorDark inline-block mx-auto text-[14px] md:text-[17px]"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
