@@ -734,11 +734,6 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1196,6 +1191,14 @@ form:has(:invalid) input {
     padding-bottom: 5rem;
   }
 
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -1205,6 +1208,10 @@ form:has(:invalid) input {
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
   }
 
   .xl\:max-w-\[1016px\] {
@@ -1226,6 +1233,10 @@ form:has(:invalid) input {
   .xxl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .xxl\:w-80 {
+    width: 20rem;
   }
 
   .xxl\:max-w-7xl {
